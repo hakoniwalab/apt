@@ -1,7 +1,3 @@
-いいですね！その手順に、**前提チェック**と**公開後の検証**を少し足すだけで、毎回ノートラブルになります。差分で提案します。
-
----
-
 # リリース手順（amd64）
 
 ### 0) 前提（初回だけ）
@@ -69,4 +65,3 @@ sudo apt install -y hakoniwa-core-full
   git add -A && git commit -m "release: add arm64 index" && git push
   ```
 
-必要なら、この手順を `MAINTAINERS.md` にそのまま貼る版も作ります！
