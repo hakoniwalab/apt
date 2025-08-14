@@ -31,6 +31,8 @@ sudo apt update
 
 ```bash
 sudo apt install -y hakoniwa-core-full
+sudo usermod -aG hakoniwa <your-username>
+newgrp hakoniwa
 ```
 
 ## アップデート
