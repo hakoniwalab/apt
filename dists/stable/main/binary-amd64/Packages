@@ -1,15 +1,15 @@
 Package: hakoniwa-core
-Version: 1.1.2-1
+Version: 1.1.3-1
 Architecture: amd64
 Maintainer: Takashi Mori <tmori@hakoniwa-lab.net>
-Installed-Size: 10095
+Installed-Size: 10396
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), adduser
 Recommends: libhakoniwa-assets1 | libhakoniwa-shakoc1
-Filename: pool/main/hakoniwa-core_1.1.2-1_amd64.deb
-Size: 2405476
-MD5sum: d8a26ee6bf74d0826cd1102f09b39ee1
-SHA1: 16d10e3ac0071d4b7e4995664bbec335a37dbf9a
-SHA256: 38714d142518401f1601e821514b303bbe58a1aa3627711844555db357293e9a
+Filename: pool/main/hakoniwa-core_1.1.3-1_amd64.deb
+Size: 2495624
+MD5sum: b7da25eb6cc7eb9f791ad33c9ad64f7b
+SHA1: 5a5342198e43b3d0f5ab3138b691b9d8cfe87f12
+SHA256: d063bc91a1d6e9a2218ff7434c9768391400e31ad253a3b7a0e8853c6bdb37c1
 Section: utils
 Priority: optional
 Homepage: https://github.com/hakoniwalab/hakoniwa-core-pro
@@ -18,16 +18,16 @@ Description: Hakoniwa command-line tools and default data
 
 Package: hakoniwa-core-dev
 Source: hakoniwa-core
-Version: 1.1.2-1
+Version: 1.1.3-1
 Architecture: amd64
 Maintainer: Takashi Mori <tmori@hakoniwa-lab.net>
-Installed-Size: 54140
-Depends: libhakoniwa-conductor1 (= 1.1.2-1), libhakoniwa-assets1 (= 1.1.2-1), libhakoniwa-shakoc1 (= 1.1.2-1)
-Filename: pool/main/hakoniwa-core-dev_1.1.2-1_amd64.deb
-Size: 12784270
-MD5sum: 180d3a41cfcd58086bf661dc05de08a8
-SHA1: 8f128c201d9ee1afd507384ae09b1e7341d2be65
-SHA256: cfa41d54989711a83b8636a72b69c8d39478ec14249769a12d63667266295ae9
+Installed-Size: 58974
+Depends: libhakoniwa-conductor1 (= 1.1.3-1), libhakoniwa-assets1 (= 1.1.3-1), libhakoniwa-shakoc1 (= 1.1.3-1)
+Filename: pool/main/hakoniwa-core-dev_1.1.3-1_amd64.deb
+Size: 13762450
+MD5sum: a3e2ddbcfc748e10a0e1a4b23b278291
+SHA1: d713f5e8cf6135dd0474c5c2ccbcf890118189e3
+SHA256: ff7958d93df2d96064abe07012f345a57256c6aabf05358b3f6db87973b770b3
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -37,16 +37,16 @@ Description: Development files for Hakoniwa core (headers)
 
 Package: hakoniwa-core-full
 Source: hakoniwa-core
-Version: 1.1.2-1
+Version: 1.1.3-1
 Architecture: all
 Maintainer: Takashi Mori <tmori@hakoniwa-lab.net>
-Installed-Size: 153
-Depends: hakoniwa-core (= 1.1.2-1), libhakoniwa-conductor1 (= 1.1.2-1), libhakoniwa-assets1 (= 1.1.2-1), libhakoniwa-shakoc1 (= 1.1.2-1), python3-hakopy (= 1.1.2-1), hakoniwa-core-dev (= 1.1.2-1)
-Filename: pool/main/hakoniwa-core-full_1.1.2-1_all.deb
-Size: 11992
-MD5sum: d5fc4af486a4c6f3ca1fe96bc8f0836f
-SHA1: a91a2cfd80274836fef80c0009d2d96b327c6820
-SHA256: a5220af02b8bf3e6752aa08ddda0d47602087093a3eb36eaed814823c13013c0
+Installed-Size: 154
+Depends: hakoniwa-core (= 1.1.3-1), libhakoniwa-conductor1 (= 1.1.3-1), libhakoniwa-assets1 (= 1.1.3-1), libhakoniwa-shakoc1 (= 1.1.3-1), python3-hakopy (= 1.1.3-1), hakoniwa-core-dev (= 1.1.3-1)
+Filename: pool/main/hakoniwa-core-full_1.1.3-1_all.deb
+Size: 12382
+MD5sum: c0bfb8180a09e199d5cc26289462abd8
+SHA1: 88cdaee2dd2b8542b323ac380b4ea573f322fa31
+SHA256: 873e85fb9ff1f8392c799325667f83cfebcf51a54ce135e8ef907449c2b55915
 Section: utils
 Priority: optional
 Homepage: https://github.com/hakoniwalab/hakoniwa-core-pro
@@ -56,16 +56,16 @@ Description: Meta package: full Hakoniwa core (tools, libs, python, headers)
 
 Package: libhakoniwa-assets1
 Source: hakoniwa-core
-Version: 1.1.2-1
+Version: 1.1.3-1
 Architecture: amd64
 Maintainer: Takashi Mori <tmori@hakoniwa-lab.net>
-Installed-Size: 4704
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libhakoniwa-conductor1 (= 1.1.2-1), libstdc++6 (>= 13.1)
-Filename: pool/main/libhakoniwa-assets1_1.1.2-1_amd64.deb
-Size: 1242556
-MD5sum: 38873f18f7c3591e2152f11bd64cee35
-SHA1: 43f2fd62b081210b31912a8a488bc6f015db70ff
-SHA256: 6c8118bee3b16e38245cc02d8cb7b99b5582b4e39b8674bb8fc14639f6419e1f
+Installed-Size: 4909
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libhakoniwa-conductor1 (= 1.1.3-1), libstdc++6 (>= 13.1)
+Filename: pool/main/libhakoniwa-assets1_1.1.3-1_amd64.deb
+Size: 1293510
+MD5sum: 9828db94c88d996d51f180569960b4c6
+SHA1: 21c3c573fd2af52a898189ae61908a5116d63230
+SHA256: 94b7947e3e905ec88811323bc831e910a3809c1cf1ba80b6300c4627a87adb4f
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -75,16 +75,16 @@ Description: Hakoniwa assets (callback) shared library (runtime)
 
 Package: libhakoniwa-conductor1
 Source: hakoniwa-core
-Version: 1.1.2-1
+Version: 1.1.3-1
 Architecture: amd64
 Maintainer: Takashi Mori <tmori@hakoniwa-lab.net>
-Installed-Size: 4203
+Installed-Size: 4476
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
-Filename: pool/main/libhakoniwa-conductor1_1.1.2-1_amd64.deb
-Size: 1129968
-MD5sum: 88e8e5e772a0e13a13a3d016275ea912
-SHA1: 5e2ae4a0d252b575828a06e08ac03635ac361ff0
-SHA256: a6e32bc9f7e525f5bcded33c07189b370f2af4c524d8afa3eca1a9ce52ccaaf2
+Filename: pool/main/libhakoniwa-conductor1_1.1.3-1_amd64.deb
+Size: 1219908
+MD5sum: 586c799c8961b311a8af8c2352e12c3d
+SHA1: cf5dc4a9fbab531aa846ecd622b3da10a31c81e7
+SHA256: add5af23d13bfb3f3586aec014eddc22d2ec68f8437a35198542dcb558c65f80
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -94,16 +94,16 @@ Description: Hakoniwa conductor shared library (runtime)
 
 Package: libhakoniwa-shakoc1
 Source: hakoniwa-core
-Version: 1.1.2-1
+Version: 1.1.3-1
 Architecture: amd64
 Maintainer: Takashi Mori <tmori@hakoniwa-lab.net>
-Installed-Size: 6107
+Installed-Size: 6524
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
-Filename: pool/main/libhakoniwa-shakoc1_1.1.2-1_amd64.deb
-Size: 1738968
-MD5sum: 522c1f1f6c2ff49454f31b04d9026bdb
-SHA1: 2544f1441f6c5f5cf4b1a9801e1e9a9242c840e9
-SHA256: e03f17b2740a86711dec437e4da743427722a293e8125a369270f6e1bba234db
+Filename: pool/main/libhakoniwa-shakoc1_1.1.3-1_amd64.deb
+Size: 1876168
+MD5sum: 64cceb6b1536d26391a19f4c67ee14e1
+SHA1: 426a100e588a5b98175e2cf5791b38e342c2080d
+SHA256: 261401c4e8b41de3bf940b8396d2c4cb7e3d3ac87fddf8d42297c62718066b8d
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -113,16 +113,16 @@ Description: Hakoniwa assets (polling) shared library (runtime)
 
 Package: python3-hakopy
 Source: hakoniwa-core
-Version: 1.1.2-1
+Version: 1.1.3-1
 Architecture: amd64
 Maintainer: Takashi Mori <tmori@hakoniwa-lab.net>
-Installed-Size: 726
-Depends: python3 (>= 3~), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libhakoniwa-assets1 (= 1.1.2-1), libhakoniwa-conductor1 (= 1.1.2-1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13.1)
-Filename: pool/main/python3-hakopy_1.1.2-1_amd64.deb
-Size: 140436
-MD5sum: 376c66008846b3dac93f212740187061
-SHA1: b66b5f4137063b208e4e85d46234947f0c06b404
-SHA256: 00eee15d2aa1adf4ee65f4b9645fd5053cc5f83183b910d46faa26dc8d9c5ff2
+Installed-Size: 815
+Depends: python3 (>= 3~), libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libhakoniwa-assets1 (= 1.1.3-1), libhakoniwa-conductor1 (= 1.1.3-1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 13.1)
+Filename: pool/main/python3-hakopy_1.1.3-1_amd64.deb
+Size: 156294
+MD5sum: 5677a3197cb27690c68a6ece96b630fa
+SHA1: 450cccacb1775d5652fd55e5cca99d5f01a7b109
+SHA256: 017e3c74db26233d9d7bde2aed6db890aaeb9fd18b3a6dd03cde69dfe87f5f85
 Section: python
 Priority: optional
 Multi-Arch: same
